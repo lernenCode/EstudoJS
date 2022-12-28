@@ -1,4 +1,4 @@
-const num = parseFloat(prompt('digite um numero'));
+const num = Number(prompt('digite um numero'));
 
 const Numero = document.getElementById('numero'); 
 Numero.innerHTML = num;

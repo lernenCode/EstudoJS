@@ -1,0 +1,62 @@
+/* Define uma fonte padrão para toda a página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Define uma cor de fundo para a seção */
+section {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Define estilos para o formulário */
+form {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Define estilos para os labels e inputs do formulário */
+form p {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Define estilos para o botão de envio do formulário */
+form button {
+    width: 100%;
+    background-color: #507fbd;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #395881;
+}
+
+/* Define estilos para o elemento com a classe "resultado" */
+.resultado {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #d9edf7;
+    border-radius: 5px;
+}
+
+

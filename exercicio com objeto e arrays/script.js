@@ -41,7 +41,7 @@ function main()
 
     // Responsavel por escrever os dados 
     function print() {
-        resultado.innerHTML = "";
+        resultado.innerHTML = ``;
         for (const pessoa of pessoas) {
           resultado.innerHTML += `Nome: ${pessoa.nome}  Nascimento: ${pessoa.nascimento}  Cpf: ${pessoa.cpf} 
           Email: ${pessoa.email} Tel.: ${pessoa.telefone} Curriculo.: ${pessoa.curriculo} LGPD: ${pessoa.checkbox} <br>`;
